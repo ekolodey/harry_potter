@@ -91,14 +91,6 @@ form > input, form > textarea, form > select {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
 }
-
-#go-up {
-    position: fixed;
-    width: 100px;
-    height: 100px;
-    bottom: 50px;
-    right: 50px;
-}
     
 @media(min-width:980px) {
     body {
@@ -138,5 +130,11 @@ form > input, form > textarea, form > select {
         padding: 15px;
     }
 
-
+    #go-up {
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        bottom: 50px;
+        right: 50px;
+    }
 }

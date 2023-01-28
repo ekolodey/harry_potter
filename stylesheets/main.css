@@ -93,7 +93,11 @@ form > input, form > textarea, form > select {
 }
 
 #go-up {
-    display: none;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 50px;
+    right: 50px;
 }
     
 @media(min-width:980px) {
@@ -134,11 +138,5 @@ form > input, form > textarea, form > select {
         padding: 15px;
     }
 
-    #go-up {
-        position: fixed;
-        width: 100px;
-        height: 100px;
-        bottom: 50px;
-        right: 50px;
-    }
+
 }
